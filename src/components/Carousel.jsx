@@ -3,6 +3,8 @@ import React from 'react'
 export default function Carousel() {
   return (
     <>
+    {/* casrousel1 */}
+    <h2>Top Companies hiring now</h2>
   <div id="carouselExample" className="carousel carousel-dark slide">
     <div className="carousel-inner ">
       <div className="carousel-item active">
@@ -246,7 +248,156 @@ export default function Carousel() {
       <span className="visually-hidden">Next</span>
     </button>
   </div>
-
+ {/* carousel -2 */}
+<h3 className='my-5'>Featured company actively hiring</h3>
+ <div id="carouselExample1" className="carousel carousel-dark slide my-3 ">
+  <div className="carousel-inner">
+    <div className="carousel-item active ms-5">
+    <div className="d-flex flex-row mb-3 ms-5">
+    <button type="button" className="btn btn-light ">
+    <div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/32270.gif" alt="" />
+    <h5 className="card-title text-center">Standard Chartered</h5>   
+    <p className="card-text text-center">We strive to be great place to  work & bank.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+    </button>
+    <button type="button" className="btn btn-light">
+    <div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/315118.gif" alt="" />
+    <h5 className="card-title text-center">Data Matics</h5>
+    <p className="card-text text-center">Global digital solutions & technology company.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+    </button>
+<button type="button" className="btn btn-light">
+<div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/9714941.gif" alt="" />
+    <h5 className="card-title text-center">Actalent Services</h5>    
+    <p className="card-text text-center">We are a global leader in engineering &sciences...</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+</button>
+<button type="button" className="btn btn-light me-5">
+    <div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/2095704.gif" alt="" />
+    <h5 className="card-title text-center">Jio</h5>   
+    <p className="card-text text-center">True 5G is here to unlock the limitless era.</p>    
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+    </button>
+</div>
+    </div>
+    <div className="carousel-item ms-5">
+    <div className="d-flex flex-row mb-3 mx-5">
+    
+<button type="button" className="btn btn-light ">
+<div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/21746.gif" alt="" />
+    <h5 className="card-title text-center">FIS</h5>
+    <p className="card-text text-center">FIS is hiring 3 to 10yrs exp. in C++ & Mumps developer.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+</button>
+<button type="button" className="btn btn-light">
+<div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/4847169.gif" alt="" />
+    <h5 className="card-title text-center">Optum</h5>   
+    <p className="card-text text-center">Leading digital health tech company in India.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+</button>
+<button type="button" className="btn btn-light">
+<div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/8270081.gif" alt="" />
+    <h5 className="card-title text-center">VXI Global Solutions LLC</h5>    
+    <p className="card-text text-center">No.1 Customer Care Solutions Provider.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+</button>
+<button type="button" className="btn btn-light me-5">
+<div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/4576227.gif" alt="" />
+    <h5 className="card-title text-center">Bread Financial</h5>    
+    <p className="card-text text-center">A tech-forward financial services company.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+</button>
+      </div>
+    </div>
+    
+    <div className="carousel-item ms-5">
+    <div className="d-flex flex-row mb-3 ms-5">
+    <button type="button" className="btn btn-light">
+    <div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/4156.gif" alt="" />
+    <h5 className="card-title text-center">Cognizant</h5>
+    <p className="card-text text-center">Leading ITes company with global presence.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+    </button>
+    <button type="button" className="btn btn-light">
+    <div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/29798.gif" alt="" />
+    <h5 className="card-title text-center">Reliance Industries (RIL)</h5>
+    <p className="card-text text-center">Indian multinational conglomerate company.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+    </button>
+    <button type="button" className="btn btn-light">
+    <div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/240936.gif" alt="" />
+    <h5 className="card-title text-center">JPMorgan Chase Bank</h5>    
+    <p className="card-text text-center">Leader in financial services.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+    </button>
+    <button type="button" className="btn btn-light me-5">
+    <div className="card" style={{width: '18rem'}}>
+  <div className="card-body">
+    <img src="https://img.naukimg.com/logo_images/groups/v2/4577755.gif" alt="" />
+    <h5 className="card-title text-center">Accolite Digital</h5>
+    <p className="card-text text-center">Digital transformation services provider.</p>
+    <button type="button" class="btn btn-outline-info">View</button>
+  </div>
+</div>
+    </button>
+    </div>
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample1
+  " data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+ 
     </>
   )
 }
